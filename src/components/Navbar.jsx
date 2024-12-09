@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <div className="bg-white dark:bg-gray-900 dark:text-white duration-200 relative z-40">
       <div className="py-4">
-          <div className="container flex justify-between items-center">
+          <div className="container mx-auto flex justify-between items-center px-4 sm:px-8 lg:px-16">
             <div className="flex items-center gap-4">
               <a href="#" className="text-2xl sm:text-3xl text-primary font-semibold tracking-wider uppercase">E-shop</a>
 

@@ -39,7 +39,7 @@ export const dropdownLinks = [
     }
 ]
 
-import image1 from '../assets/w_headset.jpg'
+import image1 from '../assets/mainheadset.png';
 import image2 from '../assets/virtual2.jpg';
 import image3 from '../assets/laptop2.jpg'
 
