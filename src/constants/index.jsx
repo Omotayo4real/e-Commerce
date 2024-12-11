@@ -40,7 +40,7 @@ export const dropdownLinks = [
 ]
 
 import image1 from '../assets/mainheadset.png';
-import image2 from '../assets/virtual2.jpg';
+import image2 from '../assets/virtual2.png';
 import image3 from '../assets/laptop2.jpg'
 
 export const heroData = [
@@ -66,3 +66,33 @@ export const heroData = [
       title2: 'Laptops',
     }
   ]
+  import { FaCarSide, FaCheckCircle, FaWallet, FaHeadphonesAlt } from 'react-icons/fa';
+
+  export const serviceData = [
+    {
+      id: 1,
+      icon: <FaCarSide className='text-4xl md:text-5xl text-primary'/>,
+      title: "Free Shipping",
+      description: "Free Shipping On All Orders"
+    },
+    {
+        id: 2,
+        icon: <FaCheckCircle className='text-4xl md:text-5xl text-primary'/>,
+        title: "Free Shipping",
+        description: "Free Shipping On All Orders"
+    },
+    {
+        id: 1,
+        icon: <FaWallet className='text-4xl md:text-5xl text-primary'/>,
+        title: "Free Shipping",
+        description: "Free Shipping On All Orders"
+    },
+    {
+        id: 1,
+        icon: <FaHeadphonesAlt className='text-4xl md:text-5xl text-primary'/>,
+        title: "Free Shipping",
+        description: "Free Shipping On All Orders"
+    }
+  ]
+
+ 
