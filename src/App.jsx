@@ -6,7 +6,10 @@ import Category from "./components/Category";
 import Category2 from "./components/Category2";
 import Service from "./components/Service";
 import Banner from "./components/Banner";
-import image1 from "./assets/mainheadset.png";
+import image1 from "./assets/hero/headphone.png";
+import Products from "./components/Products";
+
+
 
 
 const data = {
@@ -28,13 +31,14 @@ function App() {
 
   return (
     <>
-     <div>
+     <div className="px-6">
        <Navbar />
        <Hero />
        <Category />
        <Category2 />
        <Service />
        <Banner data={data} />
+       <Products />
      </div>
     </>
   )

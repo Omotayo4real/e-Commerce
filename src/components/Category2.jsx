@@ -1,12 +1,12 @@
 
 import Button from "./shared/Button";
-import playstation from "../assets/playstation4.png";
+import playstation from "../assets/category/gaming.png";
 
 const Category2 = () => {
   return (
     <div className="py-8">
                 <div className="container">
-           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
               <div className="py-10 pl-5 col-span-2 bg-gradient-to-br from-gray-400/90 to-gray-100 text-white rounded-3xl relative h-[320px] flex items-end">
                  <div>
                     <div className="mb-4">

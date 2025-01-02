@@ -39,10 +39,9 @@ export const dropdownLinks = [
     }
 ]
 
-import image1 from '../assets/mainheadset.png';
-import image2 from '../assets/virtual2.png';
-import image3 from '../assets/laptop2.jpg'
-
+import image1 from '../assets/hero/headphone.png';
+import image2 from '../assets/category/vr.png';
+import image3 from '../assets/category/macbook.png'
 export const heroData = [
     {
       id: 1,
@@ -95,4 +94,40 @@ export const heroData = [
     }
   ]
 
+  import photo1 from "../assets/product/p-1.jpg";
+  import photo2 from "../assets/product/p-2.jpg";
+  import photo3 from "../assets/product/p-3.jpg";
+  import photo4 from "../assets/product/p-4.jpg";
  
+  
+
+export const productData = [
+    {
+        id: 1,
+        img: photo1,
+        title: "Boat Headphones",
+        price: "120",
+        aosDelay: "0"
+    },
+    {
+        id: 2,
+        img: photo2,
+        title: "Rocky Mountain",
+        price: "420",
+        aosDelay: "200"
+    },
+    {
+        id: 3,
+        img: photo3,
+        title: "Goggles",
+        price: "320",
+        aosDelay: "400"
+    },
+    {
+        id: 4,
+        img: photo4,
+        title: "Printed",
+        price: "220",
+        aosDelay: "600"
+    }
+]
