@@ -98,6 +98,11 @@ export const heroData = [
   import photo2 from "../assets/product/p-2.jpg";
   import photo3 from "../assets/product/p-3.jpg";
   import photo4 from "../assets/product/p-4.jpg";
+  import photo5 from "../assets/product/p-5.jpg";
+  import photo6 from "../assets/product/p-7.jpg";
+  import photo7 from "../assets/product/p-9.jpg";
+  import photo8 from "../assets/product/p-1.jpg";
+
  
   
 
@@ -129,5 +134,79 @@ export const productData = [
         title: "Printed",
         price: "220",
         aosDelay: "600"
+    },
+     {
+        id: 5,
+        img: photo5,
+        title: "Printed",
+        price: "220",
+        aosDelay: "600"
+    },
+     {
+        id: 6,
+        img: photo6,
+        title: "Printed",
+        price: "220",
+        aosDelay: "600"
+    },
+     {
+        id: 7,
+        img: photo7,
+        title: "Printed",
+        price: "220",
+        aosDelay: "600"
+    },
+     {
+        id: 8,
+        img: photo8,
+        title: "Printed",
+        price: "220",
+        aosDelay: "600"
+    }
+]
+
+import img1 from "../assets/blogs/blog-1.jpg"
+import img2 from "../assets/blogs/blog-2.jpg"
+import img3 from "../assets/blogs/blog-3.jpg"
+export const blogData = [
+    {
+        title: "How to choose perfect smart watch",
+        subtitle: "minima facere deserunt vero illo beatea deliniti euis dolores consequuuuntium eligende corporis maiores molestea landantum. Porro?",
+        published: "Jan 20, 2024 by Dilshad",
+        image: img1,
+        aosDelay: "0"
+    },
+    {
+        title: "How to choose perfect gadget",
+        subtitle: "minima facere deserunt vero illo beatea deliniti euis dolores consequuuuntium eligende corporis maiores molestea landantum. Porro?",
+        published: "Jan 20, 2024 by Satya",
+        image: img2,
+        aosDelay: "200"
+    },
+    {
+        title: "How to choose perfect VR headset",
+        subtitle: "minima facere deserunt vero illo beatea deliniti euis dolores consequuuuntium eligende corporis maiores molestea landantum. Porro?",
+        published: "Jan 20, 2024 by Sahir",
+        image: img3,
+        aosDelay: "400"
+    }
+]
+
+export const footerLinks = [
+    {
+        title: "Home",
+        link: "#"
+    },
+    {
+        title: "About",
+        link: "/#about"
+    },
+    {
+        title: "Contact",
+        link: "/#contact"
+    },
+    {
+        title: "Blog",
+        link: "/#blogs"
     }
 ]
